@@ -10,7 +10,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
-    "jsxImportSource": "same-runtime/dist",
+    "jsxImportSource": "",
     "strict": true,
     "noFallthroughCasesInSwitch": true,
     "noEmit": true

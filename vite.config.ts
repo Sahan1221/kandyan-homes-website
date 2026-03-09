@@ -5,9 +5,6 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
-    exclude: [
-      "same-runtime/dist/jsx-dev-runtime",
-      "same-runtime/dist/jsx-runtime",
-    ],
+    
   },
 });

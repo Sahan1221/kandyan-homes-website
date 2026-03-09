@@ -812,20 +812,17 @@ function WhatsAppButton() {
 }
 
 // Main App
-function App() {
+
+
+export default function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <>
       <Header />
       <Hero />
       <About />
       <Services />
       <Projects />
-      <Reviews />
-      <Contact />
-      <Footer />
-      <WhatsAppButton />
-    </div>
+    </>
   );
 }
 
-export default App;
